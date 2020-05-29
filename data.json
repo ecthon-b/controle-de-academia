@@ -1,3 +1,13 @@
 {
-    "instructors": []
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.com",
+      "name": "Ecthon Almeida",
+      "birth": 665625600000,
+      "gender": "M",
+      "services": "Musculação, CrossFit",
+      "created_at": 1590781831012
+    }
+  ]
 }
