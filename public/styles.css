@@ -89,7 +89,7 @@ header {
 }
 
 
-/* details */
+/* ==============DETAILS============== */
 
 .details {
     padding: 32px;
@@ -139,7 +139,7 @@ header {
 }
 
 
-/* FORM */
+/* ==============FORM============== */
 
 input {
     width: 100%;
@@ -175,4 +175,9 @@ a.button {
     box-sizing: border-box;
     text-align: center;
     text-decoration: none;
+}
+
+#form-delete button[type="submit"] {
+    margin-top: 8px;
+    background-color: lightcoral;
 }

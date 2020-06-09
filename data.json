@@ -1,9 +1,9 @@
 {
   "instructors": [
     {
-      "id": 1,
+      "id": "1",
       "avatar_url": "http://google.com",
-      "name": "Ecthon Almeida",
+      "name": "Tetteo Luis Xd",
       "birth": 665625600000,
       "gender": "M",
       "services": "Musculação, CrossFit",
