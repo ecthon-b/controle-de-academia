@@ -1,11 +1,10 @@
 {
   "members": [],
-
   "instructors": [
     {
-      "id": "1",
+      "id": 1,
       "avatar_url": "http://google.com",
-      "name": "Tetteo Luis Xd",
+      "name": "Tetteo Luis Xddfgdfgfd",
       "birth": 665625600000,
       "gender": "M",
       "services": "Musculação, CrossFit, BatePerna",
