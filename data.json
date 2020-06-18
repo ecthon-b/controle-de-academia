@@ -1,5 +1,17 @@
 {
-  "members": [],
+  "members": [
+    {
+      "avatar_url": "http://www.yahoo.com.br",
+      "name": "Ecthon Borhis",
+      "email": "ecthon@gmail.com",
+      "birth": 670550400000,
+      "gender": "M",
+      "blood": "O1",
+      "weight": "76",
+      "height": "165",
+      "id": 1
+    }
+  ],
   "instructors": [
     {
       "id": 1,
