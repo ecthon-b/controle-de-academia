@@ -28,11 +28,12 @@ exports.show = function(req, res) {
     return res.render("instructors/show", { instructor: foundInstructor })
 }
 
+// create
 exports.create = function(req, res) {
     return res.render("instructors/create")
 }
 
-// create
+// post
 exports.post = function(req, res) {
     // req.query.
     // req.body
@@ -78,14 +79,14 @@ exports.edit = function(req, res) {
     const { id } = req.params
 
     const foundInstructor = data.instructors.find(function(instructor) {
-        return instructor.id == id
+        return id == instructor.id
     })
 
     if (!foundInstructor) return res.send("Instructor not found!")
 
     const instructor = {
         ...foundInstructor,
-        birth: date(foundInstructor.birth)
+        birth: date(foundInstructor.birth).iso
     }
 
     return res.render('instructors/edit', { instructor })
